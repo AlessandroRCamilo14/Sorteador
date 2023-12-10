@@ -17,7 +17,7 @@ function generateNumber() {
 
             }
             else 
-            if (min + max < 10)    {
+            if (min + 10 > max )    {
                 alert("A soma entre o número inicial e o número final precisa ser maior ou igual a 10")
             }
             else {
